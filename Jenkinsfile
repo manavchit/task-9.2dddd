@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage("Install") {
             steps {
-                git url : "https://github.com/manavchit/task9.2d.git", branch : "main"
+                git url : "https://github.com/manavchit/task-9.2dddd", branch : "main"
                 bat "npm install --verbose --legacy-peer-deps"
             }
         }
