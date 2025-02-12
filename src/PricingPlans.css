@@ -1,0 +1,100 @@
+/* Center the card group */
+.card-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px; /* Space between each card */
+  margin: 40px;
+}
+
+/* Individual card styling with border */
+.pricing-card {
+  background-color: brown;
+  border: 6px solid #ddd; /* Add border */
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  text-align: center;
+  width: 1000px; /* Increased width */
+  height: 550px; /* Increased height */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 20px; /* Adds space around each card */
+}
+
+/* Hover effect for pricing card */
+.pricing-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Header styling */
+h2, .custom-card-header, .custom-card-header1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+/* Pricing description styling */
+p, .feature-boxes ul li, .custom-card-header, .custom-card-header1 {
+  font-size: 16px;
+  color: #666666;
+  margin: 20px 0;
+}
+
+/* Feature list styles */
+.feature-boxes {
+  text-align: left;
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  color: #333;
+}
+
+ul li {
+  font-size: 16px;
+  margin: 12px 0; /* Increased vertical spacing between items */
+  padding: 20px 0; /* Additional padding within each item */
+  color: #4d4d4d;
+}
+/* Button styles */
+button {
+  color: #ffffff;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Specific styles for free and premium buttons */
+.custom-button {
+  background-color: #1abc9c; /* Light green */
+}
+
+.custom-button1 {
+  background-color: #e74c3c; /* Red */
+}
+
+/* Hover effect for buttons */
+.custom-button:hover {
+  background-color: #16a085; /* Darker green */
+}
+
+.custom-button1:hover {
+  background-color: #c0392b; /* Darker red */
+}
+
+/* Word art heading styling */
+.word-art-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
